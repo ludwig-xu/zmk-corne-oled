@@ -46,8 +46,8 @@ layers:
   - LGUI
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: mouse}
-  - {t: '$$mdi:keyboard-return$$', h: ' '}
+  - {t: '$$mdi:keyboard-space$$', h: Mouse}
+  - {t: '$$mdi:keyboard-return$$', h: Navi}
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - BT CLR ALL
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  ' ':
+  Navi:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
+  Media:
   - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
   - LOCK
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  mouse:
+  Mouse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
