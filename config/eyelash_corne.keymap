@@ -125,10 +125,10 @@
         nav {
             display-name = "Navi";
             bindings = <
-&trans  &trans     &kp HOME        &kp UP_ARROW    &kp END          &trans                                 &mmv MOVE_UP                     &trans  &trans          &trans          &trans        &trans           &trans
-&trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp LEFT_SHIFT  &kp LEFT_GUI    &kp LEFT_ALT  &kp LCTRL        &trans
-&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp PG_DN    &trans                    &mmv MOVE_DOWN                   &td3    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-                                   &trans          &td1             &trans                                                                  &trans  &trans          &trans
+&kp GRAVE  &trans     &kp HOME        &kp UP_ARROW    &kp END          &trans                                 &mmv MOVE_UP                     &trans  &trans          &trans          &trans        &trans           &trans
+&trans     &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &kp LEFT_SHIFT  &kp LEFT_GUI    &kp LEFT_ALT  &kp LCTRL        &trans
+&trans     &kp LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp PG_DN    &trans                    &mmv MOVE_DOWN                   &td3    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+                                      &trans          &td1             &trans                                                                  &trans  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
