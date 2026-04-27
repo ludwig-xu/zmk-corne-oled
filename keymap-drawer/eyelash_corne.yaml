@@ -159,7 +159,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F12
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: QWERTY, h: toggle}
   - {t: REWIND, h: '$$mdi:apple-keyboard-control$$'}
@@ -174,7 +174,7 @@ layers:
   - F4
   - F5
   - F6
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,7 +188,7 @@ layers:
   - F1
   - F2
   - F3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
